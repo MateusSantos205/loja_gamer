@@ -168,6 +168,15 @@ body {
     padding-left: 5px;
 }
 
+.carousel__dots{
+    color: #FFF;
+}
+
+.carousel__button{
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.532);
+}
+
 /* final css desktop */
 
 /* inicio css responsivo */
@@ -209,6 +218,30 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .carousel__slide{
+        max-width: var(--carousel-slide-width, 100%);
+        width: 70%;
+    }
+
+    .promocoes-img{
+        width: 100%;
+    }
+
+    .promocoes-figure{
+        margin: 0;
+        height: 300px;
+    }
     
+    img.banner-img{
+        display: none;
+    }
+
+    .carrinho-texto{
+        display: none;
+    }
+
+    .oculta-navbar{
+        display: none;
+    }
 
 }
